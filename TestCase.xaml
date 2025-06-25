@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1016,911</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>908,1041</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -98,7 +98,7 @@
       <AssemblyReference>System.Private.Xml</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="450,846" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="450,976" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="queueItem" />
     </Sequence.Variables>
@@ -107,6 +107,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
+    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="388,90" sap2010:WorkflowViewState.IdRef="Delay_1" />
     <uta:GetTestDataQueueItem ContinueOnError="{x:Null}" TimeoutMs="{x:Null}" DisplayName="Get Test Data Queue Item" FolderPath="Root/Aviad/Test1" sap:VirtualizedContainerService.HintSize="388,192" sap2010:WorkflowViewState.IdRef="GetTestDataQueueItem_1" MarkConsumed="False" Output="[queueItem]" QueueName="test" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[queueItem(&quot;last_name&quot;).ToString]" />
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[queueItem(&quot;first_name&quot;).ToString]" />

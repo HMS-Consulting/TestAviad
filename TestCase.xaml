@@ -1,0 +1,115 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" this:TestCase.aviad12344="[System.Text.Json.JsonSerializer.Deserialize(Of IDictionary( Of System.String,System.Object))(&quot;{&quot;&quot;first_name&quot;&quot;:&quot;&quot;אביעד&quot;&quot;,&quot;&quot;last_name&quot;&quot;:&quot;&quot;חיים&quot;&quot;,&quot;&quot;id_number&quot;&quot;:&quot;&quot;3111&quot;&quot;,&quot;&quot;mobile&quot;&quot;:&quot;&quot;312321&quot;&quot;,&quot;&quot;branch&quot;&quot;:&quot;&quot;443&quot;&quot;,&quot;&quot;account_number&quot;&quot;:&quot;&quot;3455&quot;&quot;,&quot;&quot;account_holder&quot;&quot;:&quot;&quot;חיין&quot;&quot;,&quot;&quot;sub_agency&quot;&quot;:&quot;&quot;טויוטי&quot;&quot;,&quot;&quot;gender&quot;&quot;:&quot;&quot;זכר&quot;&quot;,&quot;&quot;bank&quot;&quot;:&quot;&quot;עכדגע&quot;&quot;,&quot;&quot;levi_itzhak_code&quot;&quot;:&quot;&quot;עכדגעגכד&quot;&quot;,&quot;&quot;advance&quot;&quot;:&quot;&quot;עגכד&quot;&quot;,&quot;&quot;email&quot;&quot;:&quot;&quot;עגכ&quot;&quot;,&quot;&quot;street&quot;&quot;:&quot;&quot;עכג&quot;&quot;,&quot;&quot;house_number&quot;&quot;:&quot;&quot;עכגי&quot;&quot;,&quot;&quot;entrance&quot;&quot;:&quot;&quot;חיע&quot;&quot;,&quot;&quot;apartment_number&quot;&quot;:&quot;&quot;חיע&quot;&quot;,&quot;&quot;workplace&quot;&quot;:&quot;&quot;חעי&quot;&quot;,&quot;&quot;previous_car_number&quot;&quot;:&quot;&quot;חעי&quot;&quot;,&quot;&quot;card_number&quot;&quot;:&quot;&quot;חיע&quot;&quot;,&quot;&quot;manufacturer&quot;&quot;:&quot;&quot;חיע&quot;&quot;,&quot;&quot;detailed_model&quot;&quot;:&quot;&quot;ארקא&quot;&quot;,&quot;&quot;addition_1&quot;&quot;:&quot;&quot;ארקאקרא&quot;&quot;,&quot;&quot;addition_2&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;locality&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;employment_status&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;net_income&quot;&quot;:&quot;&quot;קארק&quot;&quot;,&quot;&quot;education&quot;&quot;:&quot;&quot;אקר&quot;&quot;,&quot;&quot;marital_status&quot;&quot;:&quot;&quot;אקר&quot;&quot;,&quot;&quot;track_type&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;card_type&quot;&quot;:&quot;&quot;אקר&quot;&quot;,&quot;&quot;expiry_year&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;expiry_month&quot;&quot;:&quot;&quot;אקר&quot;&quot;,&quot;&quot;order_number&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;first_name_english&quot;&quot;:&quot;&quot;ארקא&quot;&quot;,&quot;&quot;last_name_english&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;grandmother_first_name_mother_side&quot;&quot;:&quot;&quot;ארק&quot;&quot;,&quot;&quot;expected_card_use&quot;&quot;:&quot;&quot;ארקאקר&quot;&quot;,&quot;&quot;card_designated_use&quot;&quot;:&quot;&quot;כן&quot;&quot;}&quot;)]" this:TestCase.in_test_id="123" this:TestCase.test="[System.Text.Json.JsonSerializer.Deserialize(Of IDictionary( Of System.String,System.Object))(&quot;{&quot;&quot;id&quot;&quot;:111,&quot;&quot;password&quot;&quot;:&quot;&quot;2222&quot;&quot;}&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="aviad12344" Type="InArgument(scg:IDictionary(x:String, x:Object))" />
+    <x:Property Name="in_test_id" Type="InArgument(x:String)" />
+    <x:Property Name="test" Type="InArgument(scg:IDictionary(x:String, x:Object))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1016,911</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Json</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Testing.Core</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Json</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="450,846" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="queueItem" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uta:GetTestDataQueueItem ContinueOnError="{x:Null}" TimeoutMs="{x:Null}" DisplayName="Get Test Data Queue Item" FolderPath="Root/Aviad/Test1" sap:VirtualizedContainerService.HintSize="388,192" sap2010:WorkflowViewState.IdRef="GetTestDataQueueItem_1" MarkConsumed="False" Output="[queueItem]" QueueName="test" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[queueItem(&quot;last_name&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[queueItem(&quot;first_name&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,141" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;הערך של הארגומנט test id הוא  : &quot; + in_test_id]" />
+  </Sequence>
+</Activity>
